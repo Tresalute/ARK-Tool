@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="驱动遍历">
+      <UniqueIdentifier>{27f6a442-ebc2-412f-bf34-1505df609edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="进程、线程、模块">
+      <UniqueIdentifier>{777639b7-4edc-417a-9bf3-1bcd74721e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="遍历文件">
+      <UniqueIdentifier>{73cd83c3-903e-41b3-bacc-eeabe0e185cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="遍历注册表">
+      <UniqueIdentifier>{d655a436-7cba-405b-a8b3-06ddb068de6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="遍历IDT">
+      <UniqueIdentifier>{023ba155-7ecf-42b4-b139-b2b63e4c373c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="遍历GDT">
+      <UniqueIdentifier>{7adfacaa-7947-48fa-8e66-27d268d7a287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="遍历SSDT">
+      <UniqueIdentifier>{99082399-f769-41c3-aa4b-aa803c4a398a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="通信">
+      <UniqueIdentifier>{65506c7c-051b-4b98-a3a9-e56e2738266c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="加载器">
+      <UniqueIdentifier>{6498d057-045b-456c-ad01-8ec075a4c74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkTools">
+      <UniqueIdentifier>{62a72ccb-3574-4363-b331-b308e1f738c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkTools\头文件">
+      <UniqueIdentifier>{64e446dd-174e-4a2f-8181-ae0c1f06ee86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkTools\源文件">
+      <UniqueIdentifier>{8cc833e4-977c-4558-b8a7-300b31e2e087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="系统源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>系统头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>系统头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>系统头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARK_FILE.h">
+      <Filter>遍历文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARK_GDT.h">
+      <Filter>遍历GDT</Filter>
+    </ClInclude>
+    <ClInclude Include="ARK_IDT.h">
+      <Filter>遍历IDT</Filter>
+    </ClInclude>
+    <ClInclude Include="ARK_PEM.h">
+      <Filter>进程、线程、模块</Filter>
+    </ClInclude>
+    <ClInclude Include="ARK_REG.h">
+      <Filter>遍历注册表</Filter>
+    </ClInclude>
+    <ClInclude Include="ARK_SSDT.h">
+      <Filter>遍历SSDT</Filter>
+    </ClInclude>
+    <ClInclude Include="ARK_DRIVER.h">
+      <Filter>驱动遍历</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMIT.h">
+      <Filter>通信</Filter>
+    </ClInclude>
+    <ClInclude Include="LDDRIVER.h">
+      <Filter>加载器</Filter>
+    </ClInclude>
+    <ClInclude Include="ARKTools.h">
+      <Filter>ArkTools\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARKToolsDlg.h">
+      <Filter>ArkTools\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ArkTools\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources.h">
+      <Filter>ArkTools\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>系统源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARK_DRIVER.cpp">
+      <Filter>驱动遍历</Filter>
+    </ClCompile>
+    <ClCompile Include="ARK_FILE.cpp">
+      <Filter>遍历文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARK_GDT.cpp">
+      <Filter>遍历GDT</Filter>
+    </ClCompile>
+    <ClCompile Include="ARK_IDT.cpp">
+      <Filter>遍历IDT</Filter>
+    </ClCompile>
+    <ClCompile Include="ARK_PEM.cpp">
+      <Filter>进程、线程、模块</Filter>
+    </ClCompile>
+    <ClCompile Include="ARK_REG.cpp">
+      <Filter>遍历注册表</Filter>
+    </ClCompile>
+    <ClCompile Include="ARK_SSDT.cpp">
+      <Filter>遍历SSDT</Filter>
+    </ClCompile>
+    <ClCompile Include="COMMIT.cpp">
+      <Filter>通信</Filter>
+    </ClCompile>
+    <ClCompile Include="LDDRIVER.cpp">
+      <Filter>加载器</Filter>
+    </ClCompile>
+    <ClCompile Include="ARKTools.cpp">
+      <Filter>ArkTools\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARKToolsDlg.cpp">
+      <Filter>ArkTools\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ARKTools.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ARKTools.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ARKTools.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
